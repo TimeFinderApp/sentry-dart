@@ -12,11 +12,11 @@ Sentry SDK for Flutter with support to native through sentry-cocoa.
   s.homepage         = 'https://sentry.io'
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.authors          = "Sentry"
-  s.source           = { :git => "https://github.com/getsentry/sentry-dart.git",
+  s.source           = { :git => "https://github.com/TimeFinderApp/sentry-dart.git",
                          :tag => s.version.to_s }
   s.source_files     = 'sentry_flutter/Sources/**/*'
   s.public_header_files = 'sentry_flutter/Sources/**/*.h'
-  s.dependency 'Sentry/HybridSDK', '8.56.2'
+  s.dependency 'Sentry/HybridSDK', '~> 8.57'
   s.ios.dependency 'Flutter'
   s.osx.dependency 'FlutterMacOS'
   s.ios.deployment_target = '12.0'
